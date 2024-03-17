@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+      }
+      body {
+        background-image: url("flat-lay-2583213_1920\ \(1\).jpg");
+        background-size: cover;
+      }
+      .title {
+        font-size: 40px;
+        font-weight: 900;
+      }
+
+      #hero {
+
+        margin-left: 350px;
+      }
+
+      .produce {
+        background-color: rgb(184, 33, 41);
+        padding-left: 60px;
+        padding-right: 60px;
+        border-radius: 15px;
+        color: white;
+        border: 1px solid hwb(357 13% 28%);
+        font-size: 20px;
+        transition: all 200ms 5s;
+      }
+      .produce:hover{
+        cursor: pointer;
+        color:red ;
+        background-color: aliceblue;
+      }
+
+      .variety{
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+      }
+      .container2{
+        height: 230px;
+        width: 620px;
+        background-image: url("milk-3176015_640.jpg");
+        display: block;
+        margin: 20px auto;
+        margin-right: 80px;
+        
+      }
+      .container1{
+        height: 200px;
+        width: 620px;
+        background-image: url("./table-2879213_640.jpg");
+        display: block;
+        margin: 20px auto;
+        margin-right: 80px;
+      }
+
+      h3{
+        text-align: center;
+      }
+
+      p{
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="menu">
+        <ul>
+          <li class="title">FOODIES</li>
+          <li>
+            <img
+              src="./shopping_cart_FILL0_wght400_GRAD0_opsz24 (1).png"
+              alt="cart"
+              height="50px"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">
+          Taste Our Range Of Goodness
+        </h1>
+        <br />
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            From juicy fruits, to healthy veges we have it all. We source our
+            produce locally fresh, <br/> all produce is farmed GMO free. so enjoy evey
+            bite knowing we are taking care of your health. <br />
+            We also offer freshy made smoothies made from our produce. <br/>Whether
+            you want the super healthy option or the healthy option, they all
+            taste great!
+          </p>
+          <br />
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="produce">Produce</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Smoothies🥤
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="middle">
+
+
+      <div class="container1">
+        <h3>Produce</h3>
+        <p>Locally sourced, thats how we like to describe ourselves, because we are <strong>foodies</strong> we love eating fresh as much as you do. That is why we only source the best for your table. <br>
+          GMO free, no preservative foods. 
+
+
+        </p>
+
+      </div>
+ <div class="container2">
+  <h3>Smoothies</h3>
+     <ul class="variety">
+        <li>Blueberry Smoothie - This Blueberry smoothie is just <em>Creamy.</em></li>
+        <li>Keto Smoothie - Low carb raspberries, strawberries, and blackberries; with coconut milk and spinach. </li>
+        <li>Smoothie Bowl - mix your favourite fruits and sprinkle with nuts and berries.</li>
+        <li>Green Smoothie - Spinach-kale smoothie.</li>
+        <li>Classic Banana - The main ingredient is banana, followed by yogurt.</li>
+        <li>...And more...</li>
+      </ul>
+     </div>
+  
+    <section id="footer">
+      <footer class="py-3 my-4">
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="foodies.js"></script>
+  </body>
+</html>
